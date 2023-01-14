@@ -1,0 +1,13 @@
+public class Secondtask {
+    public static void main(String[] args) throws IOException {
+        Scanner name = new Scanner(System.in);
+        System.out.print("Пожалуйста, введите имя: ");
+        String name1 = name.nextLine();
+        if (name1.equals("Вячеслав")){
+            System.out.print("Привет, Вячеслав!");
+        }else {
+            System.out.print("Нет таких имен");
+        }
+    }
+
+}
